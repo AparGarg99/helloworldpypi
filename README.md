@@ -1,9 +1,9 @@
 # Overview
-How to build python packages for pip ([pypi](https://pypi.org/)).
+How to build python packages for pip ([PyPI](https://pypi.org/)).
 
 # Installation and Usage
 
-1. Create account on [pypi](https://pypi.org/account/register)
+1. Create account on [PyPI](https://pypi.org/account/register)
 2. Open Anaconda command prompt
 3. Create new anaconda environment
 ```
@@ -13,7 +13,7 @@ conda create -n "project" python==3.7
 ```
 conda activate "project"
 ```
-5. Install the required dependencies for package upload to pypi
+5. Install the required dependencies for package upload to PyPI
 ```
 pip install setuptools twine
 ```
@@ -26,7 +26,7 @@ git clone https://github.com/AparGarg99/helloworldpypi.git
 ```
 cd ..\base-folder
 ```
-9. Upload package to pypi
+9. Upload package to PyPI
 ```
 python setup.py sdist bdist_wheel
 ```
