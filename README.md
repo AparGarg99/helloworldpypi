@@ -17,8 +17,8 @@ conda activate "project"
 ```
 pip install setuptools twine
 ```
-6. Clone https://github.com/AparGarg99/helloworldpypi.git
-7. Make changes inside `base-folder` (You can choose [License](https://choosealicense.com/), [gitignore](gitignore.io))
+6. Clone this repository - https://github.com/AparGarg99/helloworldpypi.git
+7. Make changes inside `base-folder` (You can choose [License](https://choosealicense.com/), [gitignore](https://www.toptal.com/developers/gitignore/))
 8. Navigate to `base-folder`
 ```
 cd ..\base-folder
